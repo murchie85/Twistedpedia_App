@@ -28,10 +28,10 @@ public class Twisted {
 
     // RETURNS constructed variables
 
-    public  String  getmDate(){return mDate;}
-    public  String getmUser(){return  mUser;}
-    public  String getmScore(){return  mScore;}
-    public  String getmJoke(){return mJoke;}
+    public  String  getDate(){return mDate;}
+    public  String getUser(){return  mUser;}
+    public  String getScore(){return  mScore;}
+    public  String getJoke(){return mJoke;}
 
 }
 
