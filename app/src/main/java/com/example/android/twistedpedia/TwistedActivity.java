@@ -33,7 +33,7 @@ public class TwistedActivity extends AppCompatActivity {
         twistedListView.setAdapter(adapter);
 
     }
-    
+
 
 
 

@@ -42,14 +42,11 @@
             tools:context="com.example.android.courtcounter.MainActivity">
 
 
-            <TextView
-                android:id="@+id/joke_today1"
+            <ListView
+                android:id="@+id/list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?
-
-Being black and jewish, because then you have to sit at the back of the oven."
                 android:paddingTop="10sp"
                 android:paddingBottom="10sp"
                 android:paddingLeft="10sp"
