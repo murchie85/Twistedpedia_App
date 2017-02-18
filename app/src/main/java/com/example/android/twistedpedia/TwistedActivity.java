@@ -19,7 +19,9 @@ public class TwistedActivity extends AppCompatActivity {
 
         // creates in a list of TwistedObjects
         ArrayList<Twisted> jokes = new ArrayList<>();
-        jokes.add(new Twisted("21.01.2017","DanTheman","20","To all you beautiful girls out there Happy Valentines day... To all you fat birds chins up, its Pancake day next week...\n"));
+        jokes.add(new Twisted("21.01.2017","Murchie85","20","To all you beautiful girls out there Happy Valentines day... To all you fat birds chins up, its Pancake day next week...\n"));
+        jokes.add(new Twisted("24.01.2017","DantheMan","20","Apparently, 1 in 10 people live next door to a pedophile. \n" +
+                "Not me though, I live next door to a really sexy 10 year-old girl.\n"));
 
 
         // Find a reference to the {@link ListView} in the layout

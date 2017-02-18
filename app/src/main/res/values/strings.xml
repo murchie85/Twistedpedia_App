@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Twistedpedia</string>
+    <string name="date">e</string>
+
 </resources>

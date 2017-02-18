@@ -44,91 +44,17 @@
 
             <ListView
                 android:id="@+id/list"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:orientation="vertical"
+
+                />
 
 
 
-            <TextView
-                android:id="@+id/joke_today2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:id="@+id/joke_today3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:id="@+id/joke_month1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:id="@+id/joke_month2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
 
-            <TextView
-                android:id="@+id/joke_month3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
 
 
         </LinearLayout>
