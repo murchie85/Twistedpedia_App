@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     >
 
     <ImageView
@@ -13,30 +14,20 @@
         android:scaleType="fitStart"/>
 
 
-
-
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:background="#e6e6ff"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="-110dp"
         >
 
 
-        <ScrollView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:fillViewport="true">
-        <!-- left branch -->
+
+
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
             tools:context="com.example.android.courtcounter.MainActivity">
@@ -47,133 +38,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:paddingRight="10dp"
+                android:paddingLeft="10dp"
                 android:paddingTop="10dp"
-                android:orientation="vertical"
-
-                />
-
-
-
-
-
+                android:orientation="vertical" />
 
         </LinearLayout>
-        </ScrollView>
-
-
-
-
-
-        <!--***************** middle line -->
-        <LinearLayout
-            android:id="@+id/activity_main"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="10dp"
-            tools:context="com.example.android.courtcounter.MainActivity">
-
-
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/darker_gray"
-                android:layout_marginBottom="160dp"></View>
-
-
-
-        </LinearLayout>
-        <!--***************** middle line -->
-
-
-
-
-        <ScrollView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:fillViewport="true">
-        <!-- right branch -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_weight="1"
-            tools:context="com.example.android.courtcounter.MainActivity">
-
-
-            <TextView
-                android:id="@+id/alltime1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?"
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:id="@+id/alltime2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/back"
-            android:text="What's worse than being black or jewish?
-
-Being black and jewish, because then you have to sit at the back of the oven."
-            android:paddingTop="10sp"
-            android:paddingBottom="10sp"
-            android:paddingLeft="10sp"
-            android:paddingRight="10sp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="20dp"/>
-
-            <TextView
-                android:id="@+id/alltime3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="another joke that will fill the bottom of the linear layout."
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-            <TextView
-                android:id="@+id/alltime4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/back"
-                android:text="What's worse than being black or jewish?
-
-Being black and jewish, because then you have to sit at the back of the oven."
-                android:paddingTop="10sp"
-                android:paddingBottom="10sp"
-                android:paddingLeft="10sp"
-                android:paddingRight="10sp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginTop="20dp"/>
-
-        </LinearLayout>
-        </ScrollView>
-
-
-    </LinearLayout>
-
-
-
-
-
-</RelativeLayout>
+</LinearLayout>
+</LinearLayout>
