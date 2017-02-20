@@ -9,6 +9,8 @@ import android.widget.TextView;
 import android.view.View.OnClickListener;
 
 
+
+
 import java.util.ArrayList;
 
 public class TwistedActivity extends AppCompatActivity {
@@ -19,6 +21,10 @@ public class TwistedActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
+
+
         setContentView(R.layout.activity_main);
 
 
@@ -48,7 +54,6 @@ public class TwistedActivity extends AppCompatActivity {
         // so the list can be populated in the user interface
         twistedListView.setAdapter(adapter);
 
-
         //-----------------------ON CLICK LISTENER FAMILY ----------------------------------//
 
         // Find the View that shows the family category
@@ -66,6 +71,8 @@ public class TwistedActivity extends AppCompatActivity {
                 startActivity(alltimeIntent);
             }
         });
+
+
 
 
 

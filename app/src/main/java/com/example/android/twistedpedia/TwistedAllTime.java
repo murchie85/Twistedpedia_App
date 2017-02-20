@@ -19,7 +19,7 @@ public class TwistedAllTime extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.all_time);
 
 
         // creates in a list of TwistedObjects
