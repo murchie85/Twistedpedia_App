@@ -10,10 +10,11 @@ import java.util.ArrayList;
  * Created by adammcmurchie on 19/02/2017.
  */
 
-public class TwistedAllTime extends AppCompatActivity{
+public class TwistedAllTime extends AppCompatActivity {
+
+
 
     public static final String LOG_TAG = TwistedActivity.class.getName();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +25,7 @@ public class TwistedAllTime extends AppCompatActivity{
         // creates in a list of TwistedObjects
         // this will eventually just be the best jokes of all time
         ArrayList<Twisted> jokes = new ArrayList<>();
-        jokes.add(new Twisted("21.01.2017","Murchie85","20","To all you beautiful girls out there Happy Valentines day... To all you fat birds chins up, its Pancake day next week...\n"));
+        jokes.add(new Twisted("21.01.2017","Murchie85","0","To all you beautiful girls out there Happy Valentines day... To all you fat birds chins up, its Pancake day next week...\n"));
         jokes.add(new Twisted("24.01.2017","DantheMan","30","Apparently, 1 in 10 people live next door to a pedophile. \n" +
                 "Not me though, I live next door to a really sexy 10 year-old girl.\n"));
         jokes.add(new Twisted("24.01.2017","Lyds","10","Apparently, 1 in 10 people live next door to a pedophile. \n" +
