@@ -9,14 +9,14 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/black">
+        android:background="@android:color/holo_red_dark">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/allTime"
+            android:id="@+id/main"
             android:textColor="@android:color/white"
             android:background="?android:attr/selectableItemBackground"
-            android:text="best of All time"
+            android:text="Latest"
             android:textStyle="bold"/>
     </FrameLayout>
 

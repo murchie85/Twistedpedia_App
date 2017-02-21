@@ -1,8 +1,11 @@
 package com.example.android.twistedpedia;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -47,6 +50,26 @@ public class TwistedAllTime extends AppCompatActivity {
         // Set the adapter on the {@link ListView}
         // so the list can be populated in the user interface
         twistedListView.setAdapter(adapter);
+
+
+
+        //-----------------------ON CLICK LISTENER FAMILY ----------------------------------//
+
+        // Find the View that shows the family category
+        TextView family = (TextView) findViewById(R.id.main);
+
+        // Set a click listener on that View
+        family.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the family category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link FamilyActivity}
+                Intent alltimeIntent = new Intent(TwistedAllTime.this, TwistedActivity.class);
+
+                // Start the new activity
+                startActivity(alltimeIntent);
+            }
+        });
 
     }
 }
