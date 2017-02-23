@@ -19,19 +19,19 @@ public class TwistedAdaptor extends ArrayAdapter<Twisted> {
     //CONSTRUCT NEW EARTHQUAKE ADAPTER
 
 
-    public TwistedAdaptor(Context context, List<Twisted> jokes){
+    public TwistedAdaptor(Context context, List<Twisted> jokes) {
         super(context, 0, jokes);
     }
 
     // returns item view - displays earthquake info
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent){
+    public View getView(int position, View convertView, ViewGroup parent) {
         // check if existing listview (CALLED convertview) to reuse
         //otherwise if convertview = null then inflate listitem layout
 
         View listItemView = convertView;
-        if(listItemView == null){
+        if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(       // inflate ze badboy
                     R.layout.twisted_list_item, parent, false);
         }
@@ -61,7 +61,6 @@ public class TwistedAdaptor extends ArrayAdapter<Twisted> {
 
         // once we have the info, we return the view to the caller
         return listItemView;
-
 
 
     }
