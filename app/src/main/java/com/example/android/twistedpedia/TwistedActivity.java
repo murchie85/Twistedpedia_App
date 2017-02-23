@@ -54,13 +54,13 @@ public class TwistedActivity extends AppCompatActivity {
         // so the list can be populated in the user interface
         twistedListView.setAdapter(adapter);
 
-        //-----------------------ON CLICK LISTENER FAMILY ----------------------------------//
+        //-----------------------ON CLICK LISTENER BEST OF ALLTIME ----------------------------------//
 
         // Find the View that shows the family category
-        TextView family = (TextView) findViewById(R.id.allTime);
+        TextView alltime = (TextView) findViewById(R.id.allTime);
 
         // Set a click listener on that View
-        family.setOnClickListener(new OnClickListener() {
+        alltime.setOnClickListener(new OnClickListener() {
             // The code in this method will be executed when the family category is clicked on.
             @Override
             public void onClick(View view) {
