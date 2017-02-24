@@ -72,6 +72,24 @@ public class TwistedActivity extends AppCompatActivity {
             }
         });
 
+        //-----------------------ON CLICK LISTENER BEST OF TODAY ----------------------------------//
+
+        // Find the View that shows the family category
+        TextView today = (TextView) findViewById(R.id.today);
+
+        // Set a click listener on that View
+        today.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the family category is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Create a new intent to open the {@link FamilyActivity}
+                Intent alltimeIntent = new Intent(TwistedActivity.this, TwistedToday.class);
+
+                // Start the new activity
+                startActivity(alltimeIntent);
+            }
+        });
+
 
 
 

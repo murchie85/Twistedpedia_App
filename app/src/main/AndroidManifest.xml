@@ -24,6 +24,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".TwistedActivity"/>
         </activity>
+        <activity
+            android:name=".TwistedToday"
+            android:label="Best Jokes Today"
+            android:parentActivityName=".TwistedActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TwistedActivity"/>
+        </activity>
 
     </application>
 
