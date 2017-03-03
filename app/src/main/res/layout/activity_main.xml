@@ -32,6 +32,11 @@
             android:text="Todays Jokes"
             android:textStyle="bold"/>
     </FrameLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
     <ImageView
         android:layout_width="wrap_content"
